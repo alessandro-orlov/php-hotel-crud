@@ -1,0 +1,13 @@
+@mixin reset {
+  padding: 0;
+  margin:  0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@mixin wrapper {
+  width: 100%;
+  max-width:  1170px;
+  margin: 0 auto;
+  min-height: 500px; // DEBUG: debug height
+}
