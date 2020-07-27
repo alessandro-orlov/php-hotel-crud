@@ -1,7 +1,7 @@
 <?php
 include "database.php";
 
-$sql = "SELECT * FROM `stanze`";
+$sql = "SELECT * FROM `stanze` ORDER BY `room_number` ASC";
 $results = $conn->query($sql);
 
   if ($results && $results->num_rows > 0) {
