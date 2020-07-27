@@ -13,13 +13,11 @@
 
       <!-- Begin main -->
       <main>
-        <h2>Dettagli Stanza: </h2>
+        <h2>Dettagli Stanza</h2>
         <ul>
-          <?php foreach ($room_detail as $key) { ?>
-            <li>Nomero stazna: <?php echo $key['room_number']; ?> </li>
-            <li>Piano: <?php echo $key['floor']; ?> </li>
-            <li>Letti: <?php echo $key['beds']; ?> </li>
-          <?php } ?>
+          <li>Nomero stazna: <?php echo $room['room_number']; ?> </li>
+          <li>Piano: <?php echo $room['floor']; ?> </li>
+          <li>Letti: <?php echo $room['beds']; ?> </li>
         </ul>
         <a href="<?php echo $base_url ?>">torna indietro</a>
       </main>

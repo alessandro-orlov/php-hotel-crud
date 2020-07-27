@@ -2,7 +2,6 @@
 // collego env.php con i dati necessari per la connesione al database
 include "env.php";
 
-
 // Connect
 $conn = new mysqli($servername, $username, $password, $dbname);
 

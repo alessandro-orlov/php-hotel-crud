@@ -28,7 +28,8 @@
                 <td> <?php echo $room['id']; ?> </td>
                 <td> <?php echo $room["room_number"]; ?> </td>
                 <td> <?php echo $room["floor"]; ?> </td>
-                <td> <a href="<?php echo $base_url;?>/room/show/details.php?id=<?php echo $room['id'];?>">View room details</a> </td>
+                <td> <a href="<?php echo $base_url;?>/room/show/details.php?id=<?php echo $room['id'];?>">View</a> </td>
+                <td> <a href="<?php echo $base_url;?>/room/edit/edit_page.php?id=<?php echo $room['id'];?>">Edit</a> </td>
               </tr>
             <?php }; ?>
 
