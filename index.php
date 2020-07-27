@@ -1,12 +1,8 @@
-<?php include __DIR__ . "/database.php"; ?>
+<?php include __DIR__ . "/server.php"; ?>
 
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <title>Boolean Hotel</title>
-     <link rel="stylesheet" href="dist/app.css">
-   </head>
+  <?php include __DIR__ . "/page_partials/_head.php"; ?>
    <body>
     <div class="wrapper">
       <!-- Begin header -->
@@ -32,7 +28,7 @@
                 <td> <?php echo $room['id']; ?> </td>
                 <td> <?php echo $room["room_number"]; ?> </td>
                 <td> <?php echo $room["floor"]; ?> </td>
-                <td> <a href="http://localhost:8888/esercizio-boolean-hotel/room_details.php?id=<?php echo $room['id'];?>">View room details</a> </td>
+                <td> <a href="<?php echo $base_url;?>/room/show/details.php?id=<?php echo $room['id'];?>">View room details</a> </td>
               </tr>
             <?php }; ?>
 

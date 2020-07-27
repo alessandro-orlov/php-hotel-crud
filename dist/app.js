@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Alfa\Desktop\Boolean Project\php\esercizio-boolean-hotel\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Alfa\Desktop\Boolean Project\php\esercizio-boolean-hotel\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\Alessandro\Desktop\main repository backup\Boolean Project\php\php-hotel-crud\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Alessandro\Desktop\main repository backup\Boolean Project\php\php-hotel-crud\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
