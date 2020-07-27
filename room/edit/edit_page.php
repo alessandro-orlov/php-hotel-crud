@@ -24,7 +24,7 @@
           <input type="text" name="roomBeds" value="<?php echo $room['beds']; ?>">
           <div class="edit-buttons">
             <a href="<?php echo $base_url ?>">torna indietro</a>
-            <input type="submit" name="" value="salva modifiche">
+            <input class="edit" type="submit" name="" value="salva modifiche">
           </div>
         </form>
       </main>

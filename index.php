@@ -30,6 +30,12 @@
                 <td> <?php echo $room["floor"]; ?> </td>
                 <td> <a href="<?php echo $base_url;?>/room/show/details.php?id=<?php echo $room['id'];?>">View</a> </td>
                 <td> <a href="<?php echo $base_url;?>/room/edit/edit_page.php?id=<?php echo $room['id'];?>">Edit</a> </td>
+                <td>
+                  <form action="<?php echo $base_url;?>/room/delete/delete_page.php" method="post">
+                    <input type="hidden" name="id" value="<?php echo $room['id'];?>">
+                    <input class="delete" type="submit" value="Delete">
+                  </form>
+                </td>
               </tr>
             <?php }; ?>
 

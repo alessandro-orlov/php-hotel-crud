@@ -46,6 +46,42 @@ main a {
   color: #fff;
 }
 
+main a.delete {
+  background-color: #ff6161;
+}
+
+main label {
+  min-width: 150px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+main .edit-buttons {
+  padding: 10px 0;
+}
+
+main input[type=text] {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid #add8e6;
+}
+
+main input[type=submit].edit {
+  padding: 6px 10px;
+  border: 1px solid #a4e05e;
+  background-color: #a4e05e;
+  color: #fff;
+  margin-left: 50px;
+}
+
+main input[type=submit].delete {
+  padding: 6px 10px;
+  border: 1px solid #f44336;
+  background-color: #f44336;
+  color: #fff;
+}
+
 table {
   border-spacing: 5px;
   text-align: left;
@@ -64,30 +100,5 @@ table tr td {
   border: 1px solid #ccc;
   margin: 5px;
   padding: 10px;
-}
-
-label {
-  min-width: 150px;
-  display: inline-block;
-  margin: 5px 0;
-}
-
-.edit-buttons {
-  padding: 10px 0;
-}
-
-input[type=text] {
-  padding: 5px;
-  margin: 5px;
-  border: none;
-  border-bottom: 1px solid #add8e6;
-}
-
-input[type=submit] {
-  padding: 6px 10px;
-  border: 1px solid #a4e05e;
-  background-color: #a4e05e;
-  color: #fff;
-  margin-left: 50px;
 }
 
