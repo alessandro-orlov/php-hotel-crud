@@ -6,6 +6,6 @@
   $servername = "localhost";
   $username = "root";
   $password = "root";
-  $dbname = "boolean_hotel";
+  $dbname = "boolean-hotel";
 
 ?>
